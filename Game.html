@@ -1,0 +1,41 @@
+<meta charset="utf-8">
+<script>
+function Prik()
+{
+	var fulltext="";
+	var text="";
+	prompt("Вы должны отвечать на вопросы подставляя ответы.Это может быть смешно");
+	for (var i = 0;i==0;i++) 
+	////////////////////////Произвожу опрос
+		{
+		text=prompt("Кто?");
+		fulltext+=text;
+		text=prompt("Что делал?");
+		fulltext+=" "+text;
+		text=prompt("С ким");
+		fulltext+=" с "+text;
+		text=prompt("каким образом?");
+		fulltext+=" "+text;
+		text=prompt("Что делали потом?");
+		fulltext+=" потом "+text;
+
+
+
+
+
+	////////////........./заканчиваю опрос и вывожу данные
+	    alert(fulltext);
+		var variant=prompt("Введите для повтора игры 1");
+		if (variant==1)
+			{
+			i=-1;
+			}
+			return(fulltext);
+
+
+
+		}
+	}
+alert(Prik());
+
+</script>
